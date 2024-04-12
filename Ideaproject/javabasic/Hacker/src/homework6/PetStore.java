@@ -9,7 +9,10 @@ class Animals{
     }
 }
 class Dog extends Animals{
-
+    @Override
+    public void makeSound() {
+        System.out.println("dog barks");
+    }
 }
 class Cat extends Animals{
     public void move(){
@@ -20,7 +23,9 @@ class Cat extends Animals{
     }
 }
 class Hamster extends Animals{
-
+    public void makeSound(){
+        System.out.println("Hamsters squeak");
+    }
 }
 
 public class PetStore {
