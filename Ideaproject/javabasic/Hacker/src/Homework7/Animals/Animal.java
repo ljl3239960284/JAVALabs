@@ -1,4 +1,4 @@
-package Homework7.Animal;
+package Homework7.Animals;
 
 public abstract class Animal {
     protected Animal(int legs){
