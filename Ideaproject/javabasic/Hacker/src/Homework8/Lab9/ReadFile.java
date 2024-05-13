@@ -32,7 +32,7 @@ public class ReadFile {
                 System.out.println(line);
             }
         }catch(IOException e){
-            System.out.println("Error: "+e.getMessage());
+            System.out.println("Error: "+e.getMessage());//To handle the exception if any
         }
     }
 
