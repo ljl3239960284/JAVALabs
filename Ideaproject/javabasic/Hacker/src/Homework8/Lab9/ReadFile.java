@@ -23,7 +23,7 @@ public class ReadFile {
             System.out.println("Files in current directory: ");
             System.out.println(Arrays.toString(filelist));
         }else{
-            System.out.println("No files in current directory");
+            System.out.println("No files in current directory");//To handle the case if there are no files in the directory
         }
         
         try(BufferedReader fr = new BufferedReader(new FileReader(address))){
