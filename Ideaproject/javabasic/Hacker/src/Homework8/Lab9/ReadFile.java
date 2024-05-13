@@ -26,7 +26,7 @@ public class ReadFile {
             System.out.println("No files in current directory");
         }
         
-        try(BufferedReader fr = new BufferedReader(address)){
+        try(BufferedReader fr = new BufferedReader(new FileReader(address))){
             String line;
             while ((line = fr.readLine()) != null){
                 System.out.println(line);
