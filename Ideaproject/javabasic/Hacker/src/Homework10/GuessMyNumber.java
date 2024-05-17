@@ -6,7 +6,7 @@ public class GuessMyNumber {
     public static void main(String[] args) {
         Random rand = new Random();
         Scanner sc = new Scanner(System.in);
-        int sNum = rand.nextInt(1001);
+        int sNum = (int)(1000*rand.nextDouble());
 
         boolean result = true;
         while(result){
