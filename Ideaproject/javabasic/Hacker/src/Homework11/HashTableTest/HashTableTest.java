@@ -1,6 +1,5 @@
 package Homework11.HashTableTest;
 
-import java.awt.print.Book;
 import java.util.Hashtable;
 
 public class HashTableTest {
@@ -14,11 +13,38 @@ public class HashTableTest {
 
         // Retrieve a Book by its ISBN
         Book book = bookTable.get("9898001");
-        System.out.println("Book retrieved: " + book);
+        System.out.println("check if 9898001 exist in result: " + bookTable.containsKey("9898001"));
 
         // Retrieve all Books
         for (String isbn : bookTable.keySet()) {
-            System.out.println("ISBN: " + isbn + ", Book: " + bookTable.get(isbn));
+            System.out.println("ISBN: " + isbn + ", 书籍: " + bookTable.get(isbn));
         }
+    }
+}
+
+class Book {
+    private String isbn;
+    private String title;
+    private String author;
+    private int price;
+    private String language;
+
+    public Book(String isbn, String title, String author, int price, String language) {
+        this.isbn = isbn;
+        this.title = title;
+        this.author = author;
+        this.price = price;
+        this.language = language;
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "isbn='" + isbn + '\'' +
+                ", title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", price=" + price +
+                ", language='" + language + '\'' +
+                '}';
     }
 }
