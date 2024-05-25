@@ -1,4 +1,4 @@
-package homework6;
+package Homework6;
 class Animals{
     public double price = 0;
     public void move(){

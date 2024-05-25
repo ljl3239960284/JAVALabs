@@ -1,4 +1,4 @@
-package homework4;
+package Homework4;
 
 public class FindDuplicate 
 {

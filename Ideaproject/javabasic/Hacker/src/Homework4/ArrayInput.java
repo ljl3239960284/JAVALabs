@@ -1,4 +1,4 @@
-package homework4;
+package Homework4;
 import java.util.Scanner;
 
 public class ArrayInput 

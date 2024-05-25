@@ -1,4 +1,4 @@
-package homework6;//comment
+package Homework6;//comment
 
 public class MainTest {
 
