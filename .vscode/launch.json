@@ -1,0 +1,61 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "GenericSwap",
+      "request": "launch",
+      "mainClass": "Homework11.Swap.GenericSwap",
+      "projectName": "JAVALabs_2e90fc6d"
+    },
+    {
+      "type": "java",
+      "name": "HashTableTest",
+      "request": "launch",
+      "mainClass": "Homework11.HashTableTest.HashTableTest",
+      "projectName": "JAVALabs_2e90fc6d"
+    },
+    {
+      "type": "java",
+      "name": "HashTableTest",
+      "request": "launch",
+      "mainClass": "Homework11.HashTableTest.HashTableTest",
+      "projectName": "JAVALabs_2e90fc6d"
+    },
+    {
+      "type": "java",
+      "name": "HashTableTest",
+      "request": "launch",
+      "mainClass": "Homework11.HashTableTest.HashTableTest",
+      "projectName": "JAVALabs_2e90fc6d"
+    },
+    {
+      "type": "java",
+      "name": "HashTableTest",
+      "request": "launch",
+      "mainClass": "Homework11.HashTableTest.HashTableTest",
+      "projectName": "JAVALabs_2e90fc6d"
+    },
+    {
+      "type": "java",
+      "name": "HashTableTest",
+      "request": "launch",
+      "mainClass": "Homework11.HashTableTest.HashTableTest",
+      "projectName": "JAVALabs_2e90fc6d"
+    },
+    {
+      "type": "java",
+      "name": "HashTableTest",
+      "request": "launch",
+      "mainClass": "Homework11.HashTableTest.HashTableTest",
+      "projectName": "JAVALabs_2e90fc6d"
+    },
+    {
+      "type": "java",
+      "name": "HashTableTest",
+      "request": "launch",
+      "mainClass": "Homework11.HashTableTest.HashTableTest",
+      "projectName": "JAVALabs_2e90fc6d"
+    }
+  ]
+}
