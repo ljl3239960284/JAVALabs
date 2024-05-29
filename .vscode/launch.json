@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "VectorTest",
+      "request": "launch",
+      "mainClass": "Homework11.VectorTest.VectorTest",
+      "projectName": "JAVALabs_2e90fc6d"
+    },
+    {
+      "type": "java",
       "name": "Test",
       "request": "launch",
       "mainClass": "Homework11.ClassTest.Test",
