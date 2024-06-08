@@ -10,6 +10,7 @@ public class TestInvoice {
     }
     public static LineItem[] getListOfLineItems() {
         LineItem []list = new LineItem[3];
+
         Product p0 = new Product("Toaster",29.95);
         list[0] = new LineItem();
         list[0].addProduct(p0);
